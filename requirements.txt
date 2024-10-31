@@ -1,0 +1,6 @@
+streamlit
+os
+shutil
+dotenv
+youtube_transcript_api
+glob
