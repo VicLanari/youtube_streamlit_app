@@ -15,8 +15,6 @@ Create a .env file to set your own parameters
 
 MY_VIDEO_DIR = Path to your main video folder ex: "YourHardDrive/Users/You/YourChannel/Videos"
 
-MY_VIDEO_FOLDERS = Folder you would like to create inside every new video folder you make ex: "assets, video, audio, text"
-
 MAIN_VIDEO_FOLDER_PATH = Same as MY_VIDEO_DIR but used to retrieve your video folder names, so include a * ex:"YourHardDrive/Users/You/YourChannel/Videos/*"
 
 MAIN_VIDEO_FOLDER = Only the folder name ex: "Videos/"
