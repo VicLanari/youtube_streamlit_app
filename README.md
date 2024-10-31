@@ -23,4 +23,5 @@ MAIN_VIDEO_FOLDER = Only the folder name ex: "Videos/"
 
 ## To run your webapp
 Use streamlit to run the home.py file in your localhost
+
 streamlit run home.py
