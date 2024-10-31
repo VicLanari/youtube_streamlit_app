@@ -6,11 +6,11 @@ from dotenv import load_dotenv, dotenv_values
 load_dotenv()
 
 MY_VIDEO_DIR = os.getenv('MY_VIDEO_DIR')
-MY_VIDEO_FOLDERS = os.getenv('MY_VIDEO_FOLDERS')
+
 
 
 def new_folder(folder_name):
-    Folders = MY_VIDEO_FOLDERS
+    Folders = ["Videos", "Images", "Text","Audio", "Assets"]
     cur_dir = os.getcwd()
     video_dir = MY_VIDEO_DIR
     dest = os.path.join(video_dir, folder_name)
