@@ -19,6 +19,8 @@ MAIN_VIDEO_FOLDER_PATH = Same as MY_VIDEO_DIR but used to retrieve your video fo
 
 MAIN_VIDEO_FOLDER = Only the folder name ex: "Videos/"
 
+GPT_KEY = Your chat gpt api key
+
 ## To run your webapp
 Use streamlit to run the home.py file in your localhost
 
