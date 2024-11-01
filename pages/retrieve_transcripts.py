@@ -37,7 +37,7 @@ def get_transcripts(links):
             lis.append(outtxt)
         final_lis.append(lis)
         for i in final_lis:
-            with open(f'transcript {final_lis.index(i) + 1}.txt', 'a') as opf:
+            with open(f'transcript_{final_lis.index(i) + 1}.txt', 'a') as opf:
                 opf.write(" ".join(i) + '\n')
     print('Transcripts downloaded')
 
