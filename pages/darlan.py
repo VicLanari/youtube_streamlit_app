@@ -53,7 +53,7 @@ def gpt15top(script):
         ]
     )
     out = response.choices[0].message.content
-    with open('/Users/vicentelanari/desktop/output.txt', 'w') as final:
+    with open(MY_VIDEO_DIR + "/output.txt", 'w') as final:
         final.write(out)
 
 
